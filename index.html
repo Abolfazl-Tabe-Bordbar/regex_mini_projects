@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Regex Projects</title>
+</head>
+<body class="bg-slate-900">
+
+    <main class="w-11/12 h-[550px] my-5 bg-sky-700/25 mx-auto rounded-lg grid grid-rows-2 grid-cols-3 box-border p-5 gap-5">
+
+        <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Date Checker</span>
+            <input id="data_input" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="2023/12/3">
+            <button id="data_checker_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+        </section>
+
+        <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Size Checker</span>
+            <input id="number_input" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="+12.2">
+            <button id="number_checker_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+        </section>
+
+        <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Home Number Checker</span>
+            <input id="home_number_input" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="071-38251915">
+            <button id="home_number_checker_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+        </section>
+
+        <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Phone Number Checker</span>
+            <input id="phone_input" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="09059170556">
+            <button id="phone_checker_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+        </section>
+
+        <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Comments</span>
+            <textarea  id="comments_input" type="text" class="w-11/12  bg-transparent outline-none border border-light-900 rounded-md h-[100px] text-center text-white"></textarea>
+        </section>
+
+       <section class="w-full h-full  col-span-1 rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Create Link</span>
+            <input id="create_link" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="my site">
+            <button id="create_link_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+            <p id="P" class="text-white text-left w-11/12">
+                export : 
+            </p>
+        </section>
+
+    </main>
+
+    <main class="w-11/12 h-[250px] my-5 bg-sky-700/25 mx-auto rounded-lg flex justify-center items-center box-border p-5">
+
+        <section class="w-full h-full  rounded-md border-2 border-sky-800 flex flex-col justify-around items-center">
+            <span class="text-white text-lg font-bold">Email Checker</span>
+            <input id="email_input" type="text" class="w-11/12 bg-transparent outline-none border border-light-900 rounded-md h-[45px] text-center text-white" placeholder="abolfazl.tabe95@gmail.com">
+            <button id="email_checker_button" class="w-full h-[45px] bg-green-900 flex justify-center items-center text-white">checker</button>
+        </section>
+
+        
+    </main>
+
+    
+</body>
+<script src="./assets/scripts/date.js"></script>
+<script src="./assets/scripts/number.js"></script>
+<script src="./assets/scripts/home_number.js"></script>
+<script src="./assets/scripts/phone_number.js"></script>
+<script src="./assets/scripts/comments.js"></script>
+<script src="./assets/scripts/create_link.js"></script>
+<script src="./assets/scripts/email.js"></script>
+</html>
